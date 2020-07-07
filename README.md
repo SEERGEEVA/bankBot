@@ -2,7 +2,7 @@
 
 # Сборка и запуск
 
-Для сборки и запуска понадобиться [Gradle](https://docs.gradle.org/current/userguide/installation.html) и [JDK13](https://www.oracle.com/java/technologies/javase-jdk13-downloads.html). К сожалению, я не успела написать скрипты, которые бы облегчали запуск проекта, автоматически загружая все 
+Для сборки и запуска понадобится [Gradle](https://docs.gradle.org/current/userguide/installation.html) и [JDK13](https://www.oracle.com/java/technologies/javase-jdk13-downloads.html). К сожалению, я не успела написать скрипты, которые бы облегчали запуск проекта, автоматически загружая все 
 необходимые компоненты.
 
 Команды для сборки/запуска
