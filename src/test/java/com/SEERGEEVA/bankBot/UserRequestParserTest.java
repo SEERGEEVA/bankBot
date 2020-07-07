@@ -47,6 +47,5 @@ public class UserRequestParserTest {
         assertNull(UserRequestParser.parseFirst("доллары", util));
         assertNull(UserRequestParser.parseFirst("01.01.2020", util));
         assertNull(UserRequestParser.parseFirst("москва", util));
-        assertNull(UserRequestParser.parseFirst("", util));
     }
 }
