@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'com.SEERGEEVA'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 13
+
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation 'org.jsoup:jsoup:1.12.1'
+    compile group: 'com.ibm.icu', name: 'icu4j', version: '65.1'
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.0.1'
+    compile group: 'org.telegram', name: 'telegrambots', version:'4.6'
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+    compile group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.25'
+}

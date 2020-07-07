@@ -1,0 +1,59 @@
+{
+
+  "cities" :
+  {
+    "спб" : "spb",
+    "питер" : "spb",
+    "петербург" : "spb",
+    "санкт-петербург" : "spb",
+    "москва" : "moskva",
+    "мск" : "moskva",
+    "барнаул" : "barnaul",
+    "волгоград" : "volgograd",
+    "воронеж" : "voronezh",
+    "владивосток" : "vladivostok",
+    "екатеринбург" : "ekaterinburg",
+    "иркутск" : "irkutsk",
+    "ижевск" : "izhevsk",
+    "казань" : "kazan",
+    "краснодар" : "krasnodar",
+    "красноярск" : "krasnoyarsk",
+    "калининград" : "kaliningrad",
+    "киров" : "kirov",
+    "новосибирск" : "novosibirsk",
+    "новгород" : "nizhniy-novgorod",
+    "нижнем" : "nizhniy-novgorod",
+    "новокузнецк" : "novokuzneck",
+    "омск" : "omsk",
+    "оренбург" : "orenburg",
+    "пермь" : "perm",
+    "ростов" : "rostov-na-donu",
+    "ростов-на-дону" : "rostov-na-donu",
+    "самара" : "samara",
+    "саратов" : "saratov",
+    "тюмень" : "tyumen",
+    "томск" : "tomsk",
+    "тольятти" : "tolyatti",
+    "уфа" : "ufa",
+    "хабаровск" : "habarovsk",
+    "челябинск" : "chelyabinsk",
+    "ярославль" : "yaroslavl"
+  },
+
+  "currencies" :
+  {
+    "доллар" : "usd",
+    "баксов" : "usd",
+    "евро" : "eur",
+    "фунтов" : "gbp",
+    "иена" : "jpy",
+    "йена" : "jpy",
+    "юань" : "cny"
+  },
+
+  "websiteKeys" :
+  {
+    "цб" : "cbr"
+  }
+
+}
