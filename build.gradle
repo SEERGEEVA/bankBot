@@ -10,6 +10,9 @@ sourceCompatibility = 13
 compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
 
+apply plugin: 'application'
+mainClassName = "com.SEERGEEVA.bankBot.Application"
+
 repositories {
     mavenCentral()
 }
