@@ -44,7 +44,7 @@ public class LongPollBot extends TelegramLongPollingBot {
         finalMessage.enableMarkdown(true);
         finalMessage.setChatId(update.getMessage().getChatId().toString());
 
-        if (outMessage.message.isEmpty()) {
+        if (outMessage.message.isEmpty() || !outMessage.isSuccess) {
             logger.warn("Engine returns empty message. Message will be changed");
             outMessage.message = "Can't process your request";
         }
