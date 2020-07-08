@@ -1,7 +1,9 @@
 package com.SEERGEEVA.bankBot;
 
+import javax.xml.crypto.Data;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class UserRequestParser {
 
@@ -105,7 +107,11 @@ public class UserRequestParser {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
         dateFormat.setLenient(false);
         try {
-            dateFormat.parse(inDate.trim());
+            Date date = dateFormat.parse(inDate.trim());
+            Date currentDate = new Date();
+            if (date.after(currentDate)) {
+                return false;
+            }
         } catch (ParseException e) {
             return false;
         }
