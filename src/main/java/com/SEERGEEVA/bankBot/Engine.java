@@ -49,7 +49,7 @@ public class Engine {
 
             engineResponse.message = String.format("%s exchange rate in %s:\n",
                     info.currency.toUpperCase(), info.city.toUpperCase()) + response;
-            engineResponse.isSuccess = true;
+            engineResponse.isSuccess = !response.isEmpty();
             return engineResponse;
 
         } else if (info.pageType.equals(RequestInfo.PageType.CBR)) {
@@ -65,7 +65,7 @@ public class Engine {
 
             engineResponse.message = String.format("%s exchange rate at %s:\n",
                     info.currency, info.date) + response;
-            engineResponse.isSuccess = true;
+            engineResponse.isSuccess = !response.isEmpty();
             return engineResponse;
         }
 
